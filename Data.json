@@ -1,64 +1,242 @@
 [
-    {
-        "id":1,
-        "title":"Express",
-        "price": 22.3,
-"description":"",
-        "category":"pizza",
-        "image":"https://express-api-orpin.vercel.app/image/pizza16.jpg",
-        "rating": {
-            "rate": 4.1,
-            "count": 259
-            }
-    },
-    {
-        "id":2,
-        "title":"Chicken Supreme",
-        "price": 23.3,
-"description":"",
-        "category":"pizza",
-        "image":"https://express-api-orpin.vercel.app/image/pizza20.jpg",
-        "rating": {
-            "rate": 4.1,
-            "count": 259
-            }
-    }
-    ,
-    {
-        "id":3,
-        "title":"Vegetable pizza",
-        "price": 23.3,
-"description":"Our cookbook, Love Real Food, is here! Get your copy ↣Love Real FoodUltimate Veggie Pizza 94 CommentsJUMP TO RECIPE best veggie pizza recipe As a vegetarian for over a decade, I’ve eaten quite a few veggie pizzas. Truly fantastic veggie pizzas are few and far between. So, I combined all of the elements I’ve enjoyed over the years to create my own “ultimate” veggie pizza recipe. This is the best homemade veggie pizza I’ve ever had, and I hope you’ll say the same!",
-        "category":"pizza",
-        "image":"https://express-api-orpin.vercel.app/image/pizza18.jpg",
-        "rating": {
-            "rate": 4.1,
-            "count": 259
-            }
-    },
-    {
-        "id":4,
-        "title":"Tower burger",
-        "price": 23.3,
-"description":"",
-        "category":"burgers",
-        "image":"https://express-api-orpin.vercel.app/image/burger18.jpg",
-        "rating": {
-            "rate": 4.1,
-            "count": 259
-            }
-    },
-    {
-        "id":5,
-        "title":"Tower burger",
-        "price": 23.3,
-"description":"",
-        "category":"burgers",
-        "image":"https://express-api-orpin.vercel.app/image/burger25.jpg",
-        "rating": {
-            "rate": 4.1,
-            "count": 259
-            }
-    }
-    
+        {
+                "id": 1,
+                "title": "Express Pizza",
+                "price": 22.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+                "category": "Pizza",
+                "image": "https://express-api-orpin.vercel.app/image/pizza16.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 2,
+                "title": "Chicken Supreme Pizza",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+                "category": "Pizza",
+                "image": "https://express-api-orpin.vercel.app/image/pizza20.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 3,
+                "title": "Kabuli Pulao",
+                "price": 23.3,
+                "description": "Our cookbook, Love Real Food, is here! Get your copy ↣Love Real FoodUltimate Veggie Pizza 94 CommentsJUMP TO RECIPE best veggie pizza recipe As a vegetarian for over a decade, I’ve eaten quite a few veggie pizzas. Truly fantastic veggie pizzas are few and far between. So, I combined all of the elements I’ve enjoyed over the years to create my own “ultimate” veggie pizza recipe. This is the best homemade veggie pizza I’ve ever had, and I hope you’ll say the same!",
+                "category": "Rice",
+                "image": "https://express-api-orpin.vercel.app/image/Kabuli-Pulao.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 4,
+                "title": "Tower burger",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "category": "burgers",
+                "image": "https://express-api-orpin.vercel.app/image/burger18.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 5,
+                "title": "Tower burger",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "burgers",
+                "image": "https://express-api-orpin.vercel.app/image/burger25.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 6,
+                "title": "biryani",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Rice",
+                "image": "https://express-api-orpin.vercel.app/image/biryani.webp",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 7,
+                "title": "blueberry bread",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Fast Food",
+                "image": "https://express-api-orpin.vercel.app/image/blueberry-bread.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 8,
+                "title": "Towel burger",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Fast Food",
+                "image": "https://express-api-orpin.vercel.app/image/buger.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 9,
+                "title": "chocolate",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Chocolate",
+                "image": "https://express-api-orpin.vercel.app/image/chocolate.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 10,
+                "title": "Cup Cakes",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Cakes",
+                "image": "https://express-api-orpin.vercel.app/image/cupcakes.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 11,
+                "title": " Choco cupcakes",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Cakes",
+                "image": "https://express-api-orpin.vercel.app/image/cupcakes-1.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 12,
+                "title": "Hot Dog",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Fast Food",
+                "image": "https://express-api-orpin.vercel.app/image/Hot_dog.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 13,
+                "title": "Icecream",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Icecream",
+                "image": "https://express-api-orpin.vercel.app/image/ice_cream.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 14,
+                "title": "Juice",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Juice",
+                "image": "https://express-api-orpin.vercel.app/image/juice.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 15,
+                "title": "Pasta",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Fast Food",
+                "image": "https://express-api-orpin.vercel.app/image/pasta.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 16,
+                "title": "Pizza",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Fast Food",
+                "image": "https://express-api-orpin.vercel.app/image/pizza.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 17,
+                "title": "Sandwich",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Fast Food",
+                "image": "https://express-api-orpin.vercel.app/image/sandwich.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 18,
+                "title": "Lasagna",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Dessert",
+                "image": "https://express-api-orpin.vercel.app/image/lasagna.webp",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 19,
+                "title": "Sub sandwich",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Fast Food",
+                "image": "https://express-api-orpin.vercel.app/image/sandwich-1.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        },
+        {
+                "id": 20,
+                "title": "Spanchi Cup Cake",
+                "price": 23.3,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "category": "Cakes",
+                "image": "https://express-api-orpin.vercel.app/image/Spanchi.jpg",
+                "rating": {
+                        "rate": 4.1,
+                        "count": 259
+                }
+        }
 ]

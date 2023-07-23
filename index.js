@@ -6,6 +6,12 @@ app.use(express.static('public'))
 app.use(cors())
 
 const data=require('./Data.json')
+
+app.get('/', (req, res) => {
+
+  res.send('APi is running on 1.0')
+})
+
 app.get('/products', (req, res) => {
   res.send(data)
 })
