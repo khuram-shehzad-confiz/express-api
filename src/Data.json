@@ -1,0 +1,64 @@
+[
+    {
+        "id":1,
+        "title":"Express",
+        "price": 22.3,
+"description":"",
+        "category":"pizza",
+        "image":"https://github.com/surhud004/Foodish/blob/main/public/assets/images/pizza/pizza1.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+            }
+    },
+    {
+        "id":2,
+        "title":"Chicken Supreme",
+        "price": 23.3,
+"description":"",
+        "category":"pizza",
+        "image":"https://github.com/surhud004/Foodish/blob/main/public/assets/images/pizza/pizza9.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+            }
+    }
+    ,
+    {
+        "id":3,
+        "title":"Vegetable pizza",
+        "price": 23.3,
+"description":"Our cookbook, Love Real Food, is here! Get your copy ↣Love Real FoodUltimate Veggie Pizza 94 CommentsJUMP TO RECIPE best veggie pizza recipe As a vegetarian for over a decade, I’ve eaten quite a few veggie pizzas. Truly fantastic veggie pizzas are few and far between. So, I combined all of the elements I’ve enjoyed over the years to create my own “ultimate” veggie pizza recipe. This is the best homemade veggie pizza I’ve ever had, and I hope you’ll say the same!",
+        "category":"pizza",
+        "image":"https://github.com/surhud004/Foodish/blob/main/public/assets/images/pizza/pizza10.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+            }
+    },
+    {
+        "id":4,
+        "title":"Tower burger",
+        "price": 23.3,
+"description":"",
+        "category":"burgers",
+        "image":"/burger12.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+            }
+    },
+    {
+        "id":4,
+        "title":"Tower burger",
+        "price": 23.3,
+"description":"",
+        "category":"burgers",
+        "image":"https://github.com/surhud004/Foodish/blob/main/public/assets/images/burger/burger12.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+            }
+    }
+    
+]
