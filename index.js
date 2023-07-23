@@ -6,9 +6,15 @@ app.use(express.static('public'))
 app.use(cors())
 
 const data=require('./Data.json')
-app.get('/', (req, res) => {
+app.get('/products', (req, res) => {
   res.send(data)
 })
+app.get('/products/:productId', (req, res) => {
+    const prod=req.params.productId
+     
+     const product=data.find((e)=>e.id===prod)
+    res.send(product)
+  })
 app.get('/image/:img', (req, res) => {
     console.log('img route')
     console.log(req.params)
