@@ -8,8 +8,13 @@ const data=require('./Data.json')
 app.get('/', (req, res) => {
   res.send(data)
 })
-app.get('/image', (req, res) => {
-    res.sendFile(__dirname + '/public/burger12.jpg');
+app.get('/image/:img', (req, res) => {
+    console.log('img route')
+    console.log(req.params)
+    const path=req.params.img
+    console.log(path);
+
+    res.sendFile(__dirname + '/public/images/'+path);
   });
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
