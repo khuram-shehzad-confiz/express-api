@@ -9,7 +9,7 @@ const data=require('./Data.json')
 
 app.get('/', (req, res) => {
 
-  res.send('APi is running on 1.0')
+  res.send('APi is running on 1.1')
 })
 
 app.get('/products', (req, res) => {
@@ -18,7 +18,7 @@ app.get('/products', (req, res) => {
 app.get('/products/:productId', (req, res) => {
     const prod=req.params.productId
      
-     const product=data.find((e)=>e.id===prod)
+     const product=data.find((e)=>e.id===Number(prod))
     res.send(product)
   })
 app.get('/image/:img', (req, res) => {
